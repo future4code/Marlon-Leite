@@ -141,3 +141,10 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+.botão:active{
+    background-color: aliceblue;
+}
+.botão:hover{
+    background-color: rgb(128, 128, 7);
+}
