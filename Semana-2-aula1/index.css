@@ -109,6 +109,10 @@ table {
     text-align: center;
 }
 
+#img-meio{
+    width: 90px;
+}
+
 td button {
     background-color: #fadf63;
     width: 150px;
