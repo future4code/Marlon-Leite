@@ -1,0 +1,168 @@
+/*QUESTAO-1*/
+#pond {
+    display: flex;
+  justify-content: flex-end
+}
+/*QUESTAO-2*/
+#pond {
+    display: flex;
+  justify-content:center;
+  }
+
+/*QUESTAO-3*/
+#pond {
+    display: flex;
+  justify-content:space-around;
+  }
+
+/*QUESTAO-4*/
+#pond {
+    display: flex;
+  justify-content:space-between;
+  }
+
+/*QUESTAO-5*/
+#pond {
+    display: flex;
+  align-items:flex-end;
+  }
+
+/*QUESTAO-6*/
+#pond {
+    display: flex;
+  justify-content:center;
+  align-items:center;
+  }
+
+/*QUESTAO-7*/
+#pond {
+    display: flex;
+  justify-content:space-around;
+  align-items:flex-end;
+  }
+
+/*QUESTAO-8*/
+#pond {
+    display: flex;
+  flex-direction:row-reverse;
+  }
+
+/*QUESTAO-9*/
+#pond {
+    display: flex;
+  flex-direction:column
+  }
+
+/*QUESTAO-10*/
+#pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content:flex-end;
+  }
+
+/*QUESTAO-11*/
+
+#pond {
+    display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  }
+/*QUESTAO-12*/
+#pond {
+    display: flex;
+  justify-content:space-between;
+  flex-direction:column-reverse;
+  }
+
+/*QUESTAO-13*/
+#pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content:center;
+  align-items:flex-end;
+  }
+
+/*QUESTAO-14*/
+#pond {
+    display: flex;
+  }
+  
+  .amarelo {
+  order:2
+  }
+
+/*QUESTAO-15*/
+#pond {
+    display: flex;
+  }
+  
+  .red {
+  order:-1
+  }
+
+/*QUESTAO-16*/
+#pond {
+    display: flex;
+    alinhar-itens: flex-start;
+  }
+  
+  .amarelo {
+  align-self:flex-end
+  }
+
+/*QUESTAO-17*/
+#pond {
+    display: flex;
+    alinhar-itens: flex-start;
+  }
+  
+  .amarelo {
+  align-self:flex-end;
+  order:3
+  }
+/*QUESTAO-18*/
+#pond {
+    display: flex;
+  flex-wrap:wrap
+  }
+/*QUESTAO-19*/
+#pond {
+    display: flex;
+  flex-direction:column;
+  flex-wrap:wrap
+  }
+/*QUESTAO-20*/
+#pond {
+    display: flex;
+  flex-flow:column wrap;
+  }
+/*QUESTAO-21*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content:start
+  }
+
+/*QUESTAO-22*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content:flex-end
+  }
+
+/*QUESTAO-23*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction:column-reverse;
+  align-content:center
+  }
+
+/*QUESTAO-24*/
+#pond {
+    display: flex;
+  flex-flow:wrap-reverse column-reverse;
+  justify-content:center;
+  align-content:space-between;
+  
+  }
