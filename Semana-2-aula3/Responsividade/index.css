@@ -1,0 +1,126 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+#first-block {
+    background-color: red;
+    height: 15vh;
+}
+
+
+.bloco-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    margin: 15px;
+
+}
+.bloco-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    margin: 15px;
+}
+.bloco-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    margin: 15px;
+}
+
+.blue-block {
+    background-color: blue;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+
+.yellow-block {
+    background-color: yellow;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.green-block {
+    background-color: green;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    
+
+}
+
+.white-block {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.final-11{
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 800px){
+    .bloco-1{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .green-block{
+        grid-column: 1/3;
+    }
+    .bloco-3{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .final-11{
+        grid-column: 1/3;
+    }
+} 
+@media only screen and (max-width: 500px){
+    .bloco-1,.bloco-2,.bloco-3{
+        grid-template-columns: 1fr;
+    }
+    .green-block{
+        grid-column: 1/2;
+    }
+    .final-11{
+        grid-column: 1/2;
+    }
+
+}  
